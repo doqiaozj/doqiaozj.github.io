@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
   
-  <title>归档: 2020 | Blog</title>
+  <title>工作 | Blog</title>
 
   
     <link rel="apple-touch-icon" href="/images/favicon.png">
@@ -72,45 +72,85 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-    
-      
-        <!-- 第一篇文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2020</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="工作">
-        <div class="time-m-d">08-10</div>
-        <div class="title">
-          <a href="/posts/29206147/">
-            <span>工作</span>
-          </a>
-        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">工作</div>
+      <div class="post-attach">
+        <span class="post-pubtime">2020-08-10</span>
+        
       </div>
-    
+      <div class="markdown-body">
+        <p>过了很长一段时间，又开始工作了，慢慢来嗷</p>
+
+      </div>
       
-      <div class="post-item" title="博客创建">
-        <div class="time-m-d">08-04</div>
-        <div class="title">
-          <a href="/posts/f0bf091f/">
-            <span>博客创建</span>
-          </a>
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/posts/f0bf091f/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>PREV</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">2020-08-10</span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
+      
+    </div>
+    
+
+    
+      <div class="comments-container">
+        
+
+
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+  <div id="vcomments"></div>
+
+  <script>
+    new Valine({
+      el: '#vcomments',
+      appId: 'XH0f7DESLTfgnL7tEgdtvD4w-gzGzoHsz',
+      appKey: 'qSphJ7nUVpilCYhQdQ9pcznR',
+      placeholder: '说些什么吧!',
+      avatar: 'retro'
+    })
+  </script>
+
+    <style>
+      .comments-container .v .vempty {
+        display: none!important;
+      }
+    </style>
+
+
+
+
       </div>
     
   </div>
-</div>
 
+  
         <div class="footer">
   <div class="social">
     <ul>
